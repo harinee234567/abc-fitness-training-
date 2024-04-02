@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: rgb(240, 202, 36);
+}
+
+header {
+    background-color: #465cbd;
+    padding: 20px;
+    text-align: center;
+    color: greenyellow;
+  }
+  h1 {
+    margin: 0;
+  }
+  details {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  details summary {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 5px;
+}
+
+div.ex1 {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+.form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+a.button:link {color:#ff0000;}
+a.button:visited {color:#0000ff;}
+a.button:hover {font-size:150%;}
+
+#rcorners1 {
+    border-radius: 25px;
+    background-color: #f6f8fa;
+    padding: 10px;
+    text-align: center;
+}
+
+#exercise log {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#exercise log th,
+#exercise log td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#exercise log th {
+    background-color: #4CAF50;
+    color: white;
+}
+ section {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid  rgb(235, 219, 194) ;
+    border-radius: 5px;
+    background-color: rgb(235, 219, 194) ;
+  }
+  
+  section h2 {
+    margin: 0;
+  }
+  
+  section h3 {
+    margin: 10px 0;
+  }
+  
+  section p {
+    margin-bottom: 10px;
+  }
+  
+  section .service {
+    margin-bottom: 20px;
+  }
+  
+  section .resource {
+    margin-bottom: 20px;
+  }
+  
+  section .app-platform {
+    margin-bottom: 10px;
+  }
+  
+  section .app-platform img {
+    width: 100px;
+    vertical-align: middle;
+  }
+  
+  section .app-features ul {
+    padding-left: 20px;
+  }
+  
+  
+#contact {
+    margin: 20px 0;
+}
+
+.inset {
+    padding: 10px;
+    background-color: #aad631;
+    text-align: center;
+}
+
+footer {
+    background-color: #465cbd;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+  
+    ul {
+        flex-direction: column;
+    }
+  
+    li {
+        padding: 0.5rem 0;
+    }
+  
+    .service h3 {
+        font-size: 1.2rem;
+    }
+  
+    .resource h3 {
+        font-size: 1.2rem;
+    }
+  
+    .challenge h3 {
+        font-size: 1.2rem;
+    }
+  
+    #exercise-log th, #exercise-log td {
+        padding: 0.5rem;
+    }
+  }
